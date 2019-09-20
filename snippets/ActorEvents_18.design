@@ -28,120 +28,79 @@
     <group eventID="2" id="0">
         <event-custom comment="false" x="15" y="15">
             <group eventID="2" id="-1">
-                <periodic comment="false" x="26" y="40">
+                <dolater comment="false" x="26" y="40">
                     <group eventID="2" id="-1">
                         <set-opacity comment="false" x="37" y="67">
                             <ACTOR eid="this" id="0"/>
-                            <get-val-19-1 comment="false" id="1" x="0" y="0"/>
+                            <int id="1" val="90"/>
                         </set-opacity>
-                        <scaleTo comment="false" x="37" y="99">
-                            <ACTOR eid="this" id="0"/>
-                            <get-val-19-2 comment="false" id="1" x="0" y="0"/>
-                            <get-val-19-2 comment="false" id="2" x="0" y="0"/>
-                            <int id="3" val="0"/>
-                            <int id="4" val="0"/>
-                        </scaleTo>
-                        <set-val-19-1 comment="false" x="37" y="131">
-                            <minus comment="false" id="0" x="0" y="0">
-                                <get-val-19-1 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="10"/>
-                            </minus>
-                        </set-val-19-1>
-                        <set-val-19-2 comment="false" x="37" y="161">
-                            <plus comment="false" id="0" x="0" y="0">
-                                <get-val-19-2 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="10"/>
-                            </plus>
-                        </set-val-19-2>
-                        <if comment="false" x="37" y="191">
+                        <dolater comment="false" x="37" y="94">
                             <group eventID="2" id="-1">
-                                <die comment="false" x="48" y="221">
-                                    <ACTOR eid="this" id="0"/>
-                                </die>
-                            </group>
-                            <less comment="false" id="0" x="0" y="0">
-                                <get-val-19-1 comment="false" id="0" x="0" y="0"/>
-                                <int id="1" val="0"/>
-                            </less>
-                        </if>
-                    </group>
-                    <int id="0" val=".015"/>
-                    <ACTOR eid="this" id="2"/>
-                </periodic>
-            </group>
-            <int id="0" val="FadeAway"/>
-        </event-custom>
-    </group>
-    <group eventID="2" id="7">
-        <dolater comment="false" x="512" y="306">
-            <group eventID="2" id="-1">
-                <set-opacity comment="false" x="523" y="333">
-                    <ACTOR eid="this" id="0"/>
-                    <int id="1" val="90"/>
-                </set-opacity>
-                <dolater comment="false" x="523" y="360">
-                    <group eventID="2" id="-1">
-                        <set-opacity comment="false" x="534" y="387">
-                            <ACTOR eid="this" id="0"/>
-                            <int id="1" val="80"/>
-                        </set-opacity>
-                        <dolater comment="false" x="534" y="414">
-                            <group eventID="2" id="-1">
-                                <set-opacity comment="false" x="545" y="441">
+                                <set-opacity comment="false" x="48" y="121">
                                     <ACTOR eid="this" id="0"/>
                                     <int id="1" val="80"/>
                                 </set-opacity>
-                                <dolater comment="false" x="545" y="468">
+                                <dolater comment="false" x="48" y="148">
                                     <group eventID="2" id="-1">
-                                        <set-opacity comment="false" x="556" y="495">
+                                        <set-opacity comment="false" x="59" y="175">
                                             <ACTOR eid="this" id="0"/>
-                                            <int id="1" val="70"/>
+                                            <int id="1" val="80"/>
                                         </set-opacity>
-                                        <dolater comment="false" x="556" y="522">
+                                        <dolater comment="false" x="59" y="202">
                                             <group eventID="2" id="-1">
-                                                <set-opacity comment="false" x="567" y="549">
+                                                <set-opacity comment="false" x="70" y="229">
                                                     <ACTOR eid="this" id="0"/>
-                                                    <int id="1" val="60"/>
+                                                    <int id="1" val="70"/>
                                                 </set-opacity>
-                                                <dolater comment="false" x="567" y="576">
+                                                <dolater comment="false" x="70" y="256">
                                                     <group eventID="2" id="-1">
-                                                        <set-opacity comment="false" x="578" y="603">
+                                                        <set-opacity comment="false" x="81" y="283">
                                                             <ACTOR eid="this" id="0"/>
-                                                            <int id="1" val="50"/>
+                                                            <int id="1" val="60"/>
                                                         </set-opacity>
-                                                        <dolater comment="false" x="578" y="630">
+                                                        <dolater comment="false" x="81" y="310">
                                                             <group eventID="2" id="-1">
-                                                                <set-opacity comment="false" x="589" y="657">
+                                                                <set-opacity comment="false" x="92" y="337">
                                                                     <ACTOR eid="this" id="0"/>
-                                                                    <int id="1" val="40"/>
+                                                                    <int id="1" val="50"/>
                                                                 </set-opacity>
-                                                                <dolater comment="false" x="589" y="684">
+                                                                <dolater comment="false" x="92" y="364">
                                                                     <group eventID="2" id="-1">
-                                                                        <set-opacity comment="false" x="600" y="711">
+                                                                        <set-opacity comment="false" x="103" y="391">
                                                                             <ACTOR eid="this" id="0"/>
-                                                                            <int id="1" val="30"/>
+                                                                            <int id="1" val="40"/>
                                                                         </set-opacity>
-                                                                        <dolater comment="false" x="600" y="738">
+                                                                        <dolater comment="false" x="103" y="418">
                                                                             <group eventID="2" id="-1">
-                                                                                <set-opacity comment="false" x="611" y="765">
+                                                                                <set-opacity comment="false" x="114" y="445">
                                                                                     <ACTOR eid="this" id="0"/>
-                                                                                    <int id="1" val="20"/>
+                                                                                    <int id="1" val="30"/>
                                                                                 </set-opacity>
-                                                                                <dolater comment="false" x="611" y="792">
+                                                                                <dolater comment="false" x="114" y="472">
                                                                                     <group eventID="2" id="-1">
-                                                                                        <set-opacity comment="false" x="622" y="819">
+                                                                                        <set-opacity comment="false" x="125" y="499">
                                                                                             <ACTOR eid="this" id="0"/>
-                                                                                            <int id="1" val="10"/>
+                                                                                            <int id="1" val="20"/>
                                                                                         </set-opacity>
-                                                                                        <dolater comment="false" x="622" y="846">
+                                                                                        <dolater comment="false" x="125" y="526">
                                                                                             <group eventID="2" id="-1">
-                                                                                                <set-opacity comment="false" x="633" y="873">
+                                                                                                <set-opacity comment="false" x="136" y="553">
                                                                                                     <ACTOR eid="this" id="0"/>
-                                                                                                    <int id="1" val="0"/>
+                                                                                                    <int id="1" val="10"/>
                                                                                                 </set-opacity>
-                                                                                                <die comment="false" x="633" y="900">
-                                                                                                    <ACTOR eid="this" id="0"/>
-                                                                                                </die>
+                                                                                                <dolater comment="false" x="136" y="580">
+                                                                                                    <group eventID="2" id="-1">
+                                                                                                        <set-opacity comment="false" x="147" y="607">
+                                                                                                            <ACTOR eid="this" id="0"/>
+                                                                                                            <int id="1" val="0"/>
+                                                                                                        </set-opacity>
+                                                                                                        <die comment="false" x="147" y="634">
+                                                                                                            <ACTOR eid="this" id="0"/>
+                                                                                                        </die>
+                                                                                                    </group>
+                                                                                                    <int id="0" val=".1"/>
+                                                                                                    <ACTOR eid="this" id="2"/>
+                                                                                                </dolater>
                                                                                             </group>
                                                                                             <int id="0" val=".1"/>
                                                                                             <ACTOR eid="this" id="2"/>
@@ -183,9 +142,50 @@
                     <ACTOR eid="this" id="2"/>
                 </dolater>
             </group>
-            <int id="0" val=".1"/>
+            <int id="0" val="FadeAway"/>
+        </event-custom>
+    </group>
+    <group eventID="2" id="12">
+        <periodic comment="false" x="67" y="827">
+            <group eventID="2" id="-1">
+                <set-opacity comment="false" x="78" y="854">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-19-1 comment="false" id="1" x="0" y="0"/>
+                </set-opacity>
+                <scaleTo comment="false" x="78" y="886">
+                    <ACTOR eid="this" id="0"/>
+                    <get-val-19-2 comment="false" id="1" x="0" y="0"/>
+                    <get-val-19-2 comment="false" id="2" x="0" y="0"/>
+                    <int id="3" val="0"/>
+                    <int id="4" val="0"/>
+                </scaleTo>
+                <set-val-19-1 comment="false" x="78" y="918">
+                    <minus comment="false" id="0" x="0" y="0">
+                        <get-val-19-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="10"/>
+                    </minus>
+                </set-val-19-1>
+                <set-val-19-2 comment="false" x="78" y="948">
+                    <plus comment="false" id="0" x="0" y="0">
+                        <get-val-19-2 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="10"/>
+                    </plus>
+                </set-val-19-2>
+                <if comment="false" x="78" y="978">
+                    <group eventID="2" id="-1">
+                        <die comment="false" x="89" y="1008">
+                            <ACTOR eid="this" id="0"/>
+                        </die>
+                    </group>
+                    <less comment="false" id="0" x="0" y="0">
+                        <get-val-19-1 comment="false" id="0" x="0" y="0"/>
+                        <int id="1" val="0"/>
+                    </less>
+                </if>
+            </group>
+            <int id="0" val=".015"/>
             <ACTOR eid="this" id="2"/>
-        </dolater>
+        </periodic>
     </group>
     <group eventID="2" id="-1"/>
 </groups>
